@@ -3,7 +3,7 @@
         <footer class="p-3 ls-footer-glass">
           <div id="footer-top" class="text-center d-flex justify-content-between container">
             <div>
-              <h5>Assistenza</h5>
+              <h5>Assistance</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#" class="footer-links p-0">Home</a></li>
                 <li class="nav-item mb-2"><a href="#" class="footer-links p-0">Features</a></li>
@@ -14,9 +14,9 @@
             </div>
       
             <div>
-              <h5>Ospitare</h5>
+              <h5>Accommodate</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="footer-links p-0">Apri un B&B</a></li>
+                <li class="nav-item mb-2"><a href="#" class="footer-links p-0">Open a B&B</a></li>
                 <li class="nav-item mb-2"><a href="#" class="footer-links p-0">Features</a></li>
                 <li class="nav-item mb-2"><a href="#" class="footer-links p-0">Pricing</a></li>
                 <li class="nav-item mb-2"><a href="#" class="footer-links p-0">FAQs</a></li>
@@ -25,7 +25,7 @@
             </div>
       
             <div>
-              <h5>Bool'n Bubbles</h5>
+              <h5>Bool'n'Dreams</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#" class="footer-links p-0">About us</a></li>
                 <li class="nav-item mb-2"><a href="#" class="footer-links p-0">Team</a></li>
@@ -40,7 +40,7 @@
           <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
             <p>© 2024 Team 3 Company, Inc. All rights reserved.</p>
             <ul class="list-unstyled d-flex">
-              <li><h5>Segui Bool'n Bubbles</h5></li>
+              <li><h5>Follow Bool'n'Dreams</h5></li>
               <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-twitter text-light"></i></a></li>
               <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram text-light"></i></a></li>
               <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook text-light"></i></a></li>

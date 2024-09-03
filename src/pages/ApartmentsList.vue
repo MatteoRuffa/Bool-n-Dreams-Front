@@ -4,7 +4,7 @@
 
   <!-- these are the promoted cards -->
   <div id="promoted" class="container-fluid">
-    <h2 class="mt-5 text-center text-decoration-underline">Our best apartments</h2>
+    <h2 class="mt-5 text-center ">Our best apartments</h2>
     <div class="d-flex justify-content-center flex-wrap p-3">
 
       <div class="p-3" v-for="(apartment, index) in store.homeApartments" :key="apartment.id">
@@ -46,9 +46,12 @@
 
 
 <style lang="scss" scoped>
+  
+
   h2 {
     font-size: 3rem;
     font-weight: 200;
+    font-style: italic;
   }
 
 
