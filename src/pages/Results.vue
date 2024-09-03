@@ -15,9 +15,9 @@
         <div class="d-flex flex-column align-items-center gap-3 mb-3">
             <div class=" d-flex justify-content-center">
                 <!-- services section -->
-                <div  class="d-flex justify-content-center gap-3 flex-wrap">
+                <div  class="d-flex justify-content-space-between gap-3 flex-wrap">
                     <!-- <h2 class="text-center">Services</h2> -->
-                    <div id="services" class="d-flex flex-wrap flex-column" v-for="service in store.services" :key="service.id">
+                    <div id="services" class="d-flex flex-wrap flex-column align-items-center" v-for="service in store.services" :key="service.id">
                         <input id="servcheck" type="checkbox" class="checkbox-custom me-2" :value="service.id"
                             v-model="store.selectedServices"
                             :style="{ backgroundImage: 'url(' + store.imgBasePath + service.icon + ')' }"> <br>
@@ -27,7 +27,7 @@
 
             </div>
             <div id="filter" class="d-flex align-items-center justify-content-around flex-wrap container">
-                <div id="counters" class="d-flex justify-content-center flex-wrap">
+                <div id="counters" class="d-flex ">
                     <!-- primo counter for beds -->
                     <div class="mx-4">
                         <h3 class="text-center my-4">Beds</h3>
@@ -188,11 +188,14 @@
 <style lang="scss" scoped>
 
 
+    #services {
+        min-width: 90px!important;
+    }
 
     .checkbox-custom {
         appearance: none;
         -webkit-appearance: none;
-        width: 90px;
+        width: 60px;
         aspect-ratio: 1;
         background-size: 30px;
         background-repeat: no-repeat;
